@@ -24,6 +24,26 @@
         "pid": "0x0000",
         "vid": "0xFEED"
     },
+    "rgblight": {
+        "led_count": 12,
+        "pin": "GP0",
+        "animations": {
+               "alternating": true,
+               "breathing": true,
+               "christmas": true,
+               "knight": true,
+               "rainbow_mood": true,
+               "rainbow_swirl": true,
+               "rgb_test": true,
+               "snake": true,
+               "static_gradient": true,
+               "twinkle": true
+        },
+        "sleep": true,
+        "max_brightness": 255,
+        "split": true,
+        "split_count": [ 6, 6 ]
+    },
     "split": {
         "enabled": true,
         "transport": {
