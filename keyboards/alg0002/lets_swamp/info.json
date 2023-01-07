@@ -21,8 +21,8 @@
     "url": "",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0005",
-        "vid": "0x4160"
+        "pid": "0xA165",
+        "vid": "0x1209"
     },
     "rgblight": {
         "led_count": 12,
