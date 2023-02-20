@@ -25,7 +25,6 @@
         "vid": "0x1209"
     },
     "rgblight": {
-        "led_count": 12,
         "pin": "GP0",
         "animations": {
                "alternating": true,
