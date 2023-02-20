@@ -1,12 +1,11 @@
 # alg0002/lets_swamp
 
-![alg0002/lets_swamp](imgur.com image replace me!)
+![Let's Swamp v0.2proto](https://raw.githubusercontent.com/alg0002/LetsSwamp/main/images/let's-swamp-v02.jpg)
 
-*A short description of the keyboard/project*
+DIY keyboard "Let's Swamp"
 
 * Keyboard Maintainer: [alglabnet](https://github.com/alg0002)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: RP2040-Zero
 
 Make example for this keyboard (after setting up your build environment):
 
