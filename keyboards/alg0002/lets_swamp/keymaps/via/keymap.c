@@ -3,10 +3,10 @@
 #define L1_SPC  LT(1,KC_SPC)
 #define L2_ZKHK LT(2,KC_GRV)
 #define L2_APP  LT(2,KC_APP)
-#define MU_LSFT LSFT_T(KC_MHEN)
+#define MU_LSFT LSFT_T(KC_INT5)
 #define ET_LCTL LCTL_T(KC_ENT)
 #define ET_RCTL RCTL_T(KC_ENT)
-#define HE_RSFT RSFT_T(KC_HENK)
+#define HE_RSFT RSFT_T(KC_INT4)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* (JP)
@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [1] = LAYOUT(
-        KC_TRNS, KC_COLN, KC_MINS, KC_DQUO, KC_SLSH, KC_UNDS,          KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_INS,  KC_PSCREEN,
+        KC_TRNS, KC_COLN, KC_MINS, KC_DQUO, KC_SLSH, KC_UNDS,          KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_INS,  KC_PSCR,
         KC_TAB,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,             KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_EQL,  KC_INT3,
         KC_CAPS, KC_6,    KC_7,    KC_8,    KC_9,    KC_0,             KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_BSPC, KC_TRNS,          KC_TRNS, KC_DEL,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
