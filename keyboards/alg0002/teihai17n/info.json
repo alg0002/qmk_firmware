@@ -21,12 +21,30 @@
             [   "GP7",    "GP11"]
         ]
     },
+    "debounce": 5,
     "processor": "RP2040",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0703",
         "vid": "0xA160"
+    },
+    "rgblight": {
+        "pin": "GP0",
+        "animations": {
+               "alternating": true,
+               "breathing": true,
+               "christmas": true,
+               "knight": true,
+               "rainbow_mood": true,
+               "rainbow_swirl": true,
+               "rgb_test": true,
+               "snake": true,
+               "static_gradient": true,
+               "twinkle": true
+        },
+        "sleep": true,
+        "max_brightness": 255
     },
     "layouts": {
         "LAYOUT": {
