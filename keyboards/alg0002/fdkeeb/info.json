@@ -1,0 +1,34 @@
+{
+    "manufacturer": "alglabnet",
+    "keyboard_name": "FDkeeb(T)",
+    "maintainer": "alg0002",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP29"]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0705",
+        "vid": "0xA160"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "GP29", "matrix": [0, 0], "x": 0, "y": 0}
+            ]
+        }
+    }
+}
