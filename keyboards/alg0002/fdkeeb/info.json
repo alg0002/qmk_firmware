@@ -24,10 +24,27 @@
         "pid": "0x0705",
         "vid": "0xA160"
     },
+    "rgblight": {
+        "pin": "GP0",
+        "animations": {
+               "alternating": true,
+               "breathing": true,
+               "christmas": true,
+               "knight": true,
+               "rainbow_mood": true,
+               "rainbow_swirl": true,
+               "rgb_test": true,
+               "snake": true,
+               "static_gradient": true,
+               "twinkle": true
+        },
+        "sleep": true,
+        "max_brightness": 255
+    },
     "layouts": {
         "LAYOUT": {
             "layout": [
-                {"label": "GP29", "matrix": [0, 0], "x": 0, "y": 0}
+                {"matrix": [0, 0], "x": 0, "y": 0}
             ]
         }
     }
