@@ -22,7 +22,7 @@
     "url": "",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0704",
+        "pid": "0x0707",
         "vid": "0xA160"
     },
     "rgblight": {
